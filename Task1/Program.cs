@@ -12,7 +12,7 @@ Console.Clear();
 Console.WriteLine("введите число = ");
 int num = Convert.ToInt32(Console.ReadLine());
 string number = Convert.ToString(num);
-if (number[0]==number[2] || number[1]==number[3])
+if (number[0]==number[4] && number[1]==number[3])
 {
     Console.WriteLine("число является палиндромом");
 }
